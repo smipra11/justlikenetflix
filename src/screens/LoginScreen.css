@@ -1,0 +1,67 @@
+.loginScreen{
+    position:relative;
+    height: 100%;
+    background: url("https://browsecat.net/sites/default/files/netflix-xtreme-2021-wallpapers-90257-864935-308441.png") center no-repeat;
+background-size: cover;
+}
+
+.loginScreen__logo{
+    position: fixed;
+    left:0;
+   
+    width:150px;
+    padding-left: 20px;
+    cursor: pointer;
+    
+}
+.login_gradient{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8)0,
+        rgba(0,0,0,0)60%,
+        rgba(0,0,0,0.8)100%
+    );
+}
+.loginScreen_button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: red;
+}
+.login__body{
+    color:white;
+    z-index: 1;
+    padding: 20px;
+    position: absolute;
+    top:30%;
+    text-align: center;
+    margin-left: auto;
+    margin-left: auto;
+}
+.login__body>h1{
+    margin-bottom: 20px;
+    font-size: 3.125rem;
+}
+.loginScreen__input{
+    paddin:10px
+}
+.loginScreen__input >form >input{
+    padding:10px;
+    outline: none;
+    height:30px;
+    width:30%;
+    border: none;
+    max-width: 600px;
+}
+.loginScreen__input >form >button{
+    padding:16px 20px;
+    background-color: red;
+    outline: none;
+    color: white;
+}
