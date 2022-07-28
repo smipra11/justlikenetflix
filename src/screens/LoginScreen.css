@@ -43,6 +43,8 @@ background-size: cover;
     text-align: center;
     margin-left: auto;
     margin-left: auto;
+    left: 0;
+    right: 0;
 }
 .login__body>h1{
     margin-bottom: 20px;
@@ -64,4 +66,9 @@ background-size: cover;
     background-color: red;
     outline: none;
     color: white;
+    font-weight: 600;
+    cursor:pointer
+}
+.loginScreen__input{
+    margin:20px
 }

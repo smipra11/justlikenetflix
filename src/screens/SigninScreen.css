@@ -1,0 +1,32 @@
+.signinScreen{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:70px;
+    background: rgba(0,0,0,0.85);
+}
+.signinScreen> form{
+    display: flex;
+    flex-direction: column;
+}
+.signinScreen>form>input{
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+}
+.signinScreen>form>button{
+    padding:16px 20px;
+    font-size: 1rem;
+    background-color: red;
+
+}
+.Signup_gray{
+    color:gray
+}
+.signuptext{
+    margin-top: 30px;
+}
+.signup_link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
